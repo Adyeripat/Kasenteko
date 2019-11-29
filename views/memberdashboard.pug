@@ -1,7 +1,7 @@
 extends layout
 block content
     header.card-header
-        h4.card-title Group Member's Dashboard
+        h4.card-title Your Member's Dashboard
         b Hello, #{currentUser.firstname}  
     |&nbsp
     div.form-row
@@ -18,9 +18,9 @@ block content
     table.table
         thead.thead-dark
             tr
-                th Firstname
-                th Lastname
-                th City
+                th Your Savings
+                th Your Saving Score
+                th Your Credit Score
                 th 
         tbody
             each user in users
